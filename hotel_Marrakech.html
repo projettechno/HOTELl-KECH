@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hôtels Marrakech</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "LOGO.png" type = "image/png">
+    </head>
+    <body>
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>HOTEL KECH</span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">Les Hotels<i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+            <div class = "head-bottom flex">
+                <h2> MARRAKECH</h2>
+                <p>Marrakech, ancienne cité impériale de l'ouest du Maroc, et un centre économique majeur abritant des mosquées, des palais et des jardins. La médina est une cité médiévale fortifiée et densément peuplée datant de l'Empire berbère, avec des allées entremêlées tel un labyrinthe, où les souks (marchés) animés vendent des étoffes, des poteries et des bijoux traditionnels. Symbole de la ville, le minaret de la mosquée maure de Koutoubia du XIIe siècle est visible à des kilomètres</p>
+            </div>
+        </header>
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+            <ul class = "navbar">
+               <li><a href="./hotel_1.html">Hôtel & Ryad Art Place Marrakech</a> </li>
+               <li><a href="./hotel_la_Mamounia.html">Hôtel La Mamounia</a></li>
+               <li><a href="./hotel_2.html">Hôtel Cesar Resort & Spa</a> </li>
+               <li><a href="./hotel_Sofitel_Marrakech.html">Hotel Sofitel Marrakech Lounge & SPA</a> </li>
+               <li><a href="./hotel_3.html">Hôtel Kenzi Menara Palace</a> </li>
+               <li><a href="./les_jardins_de_la_koutoubia.html">Hôtel Les Jardins de la Koutobia</a> </li>
+               <li><a href="./hotel_4.html">Hôtel Le méridien N'Fis</a> </li>
+               <li><a href="./wazo.html">Hôtel WAZO</a> </li>
+               <li><a href="./hotel_5.html">Movaenpick Hôtel Mansour Eddahbi Marrakech</a> </li>
+               <li><a href="./AQUAMIRAGE.html">Hôtel Aqua mirage club Marrakech</a> </li>
+            </ul>
+        </div>
+        <div id = "modal"></div>
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>Gallerie</h2>
+            </div>
+            <div class = "services-container">
+                <div class="gallery">
+                <article class = "service">
+                    <div class = "service-content">
+                        <img src="kech.jpg">
+                    </div>
+                </article>
+            </div>
+            <div class="gallery">
+                <article class = "service">
+                    <div class = "service-content">
+                       <img src="kech2.jpg" alt="Jamaâ El fna"> 
+                    </div>
+                </article>
+            </div>
+            <div class="gallery">
+                <article class = "service">
+                    <div class = "service-content">
+                       <img src="marrakech.jpg" alt="Jardin Majorelle"> 
+                    </div>
+                </article>
+            </div>
+            <div class="gallery">
+                <article class = "service">
+                    <div class = "service-content">
+                       <img src="image.png" alt="Les différents quartiers de Marrakech "> 
+                    </div>
+                </article>
+            </div>
+            </div>
+        </section>
+        <div class = "book">
+           <form class = "book-form">
+               <div class = "form-item">
+                <label for = "checkin-date">Date d'arrivée :</label>
+                <input type = "date" id = "chekin-date">
+               </div>
+               <div class = "form-item">
+                <label for = "checkout-date">Date de départ : </label>
+                <input type = "date" id = "chekout-date">
+               </div>
+               <div class = "form-item">
+                <label for = "adult">Adultes :</label>
+                <input type = "number" min = "1" value = "1" id = "adult">
+               </div>
+               <div class = "form-item">
+                <label for = "children">Enfants:</label>
+                <input type = "number" min = "1" value = "1" id = "children">
+               </div>
+               <div class = "form-item">
+                <label for = "rooms">Chambres: </label>
+                <input type = "number" min = "1" value = "1" id = "rooms">
+               </div>
+               <div class = "form-item">
+                <input type = "submit" class = "btn" value = "Book Now">
+               </div>
+           </form>
+        </div>
+        <footer class = "footer">
+           <div class = "footer-container">
+               <div>
+                <h2>À propos de Nous </h2>
+                <p>
+                    HOTEL KECH <br>
+                    On presente ici les millieurs Hotels ou Marrakech 
+                </p>
+                <ul class = "social-icons">
+                    <li class = "flex">
+                        <i class = "fa fa-twitter fa-2x"></i>
+                    </li>
+                    <li class = "flex">
+                        <i class = "fa fa-facebook fa-2x"></i>
+                    </li>
+                    <li class = "flex">
+                        <i class = "fa fa-instagram fa-2x"></i>
+                    </li>
+                </ul>
+               </div>
+
+               <div>
+                <h2>Liens utiles</h2>
+                <a href = "#services">Gallerie</a>
+                <a href = "#header">Top du Page</a>
+               </div>
+
+               <div>
+                <h2>Vie privée</h2>
+                <a href = "./aboutus.html">À propos de Nous et Carrière</a>
+                <a href = "mailto:bouraihanoussama@gmail.com">Nous contacter</a>
+                <div class = "contact-item">
+                    <span>
+                        <i class = "fas fa-envelope"></i>
+                    </span>
+                    <span>
+                        bouraihanoussama@gmail.com
+                    </span>
+                </div>
+               </div>
+
+               <div>
+                <h2>Informations</h2>
+                <div class = "contact-item">
+                    <span>
+                        <i class = "fas fa-map-marker-alt"></i>
+                    </span>
+                    <span>
+                        Maroc, Marrakech
+                    </span>
+                </div>
+                <div class = "contact-item">
+                    <span>
+                        <i class = "fas fa-phone-alt"></i>
+                    </span>
+                    <span>
+                        +212639978300
+                    </span>
+                </div>
+               </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
